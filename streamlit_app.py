@@ -98,14 +98,25 @@ def delete_player(name):
 # MATCH ENGINE (FULL FIXED)
 # ======================================================
 def take_four_safe():
-    """Take the first 4 players from the queue in order if safe."""
+    """
+    Find the first safe combination of 4 players 
+    while preserving first-come priority as much as possible.
+    """
     q = list(st.session_state.queue)
+
     if len(q) < 4:
         return None
-    group = q[:4]
-    if safe_group(group):
-        st.session_state.queue = deque(q[4:])
-        return group
+
+    # Try all 4-player combinations in queue order
+    for combo in combinations(q, 4):
+        if safe_group(combo):
+            # Remove selected players from queue
+            new_queue = q.copy()
+            for p in combo:
+                new_queue.remove(p)
+            st.session_state.queue = deque(new_queue)
+            return list(combo)
+
     return None
 
 def make_teams(players):
