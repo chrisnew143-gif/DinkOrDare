@@ -340,7 +340,7 @@ with st.sidebar:
             )
             submitted = st.form_submit_button("Add Player")
             if submitted and name:
-                st.session_state.queue.appendleft((name, skill.upper(), dupr))
+                st.session_state.queue.append((name, skill.upper(), dupr))
                 st.session_state.players.setdefault(
                     name,
                     {"dupr": dupr, "games":0, "wins":0, "losses":0}
