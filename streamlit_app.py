@@ -7,10 +7,10 @@ st.set_page_config(page_title="Pickleball Manager", layout="centered")
 # =========================
 col1, col2, col3 = st.columns([1,2,1])
 with col2:
-    st.image("TDphoto.jpg", width=300)
+    st.image("DFORHphoto.jpg", width=300)
 
-st.title("🏠 TiraDinks Official")
-st.write("Welcome to the TiraDinks Club!")
+st.title("🏠 Dink4Health Official Club")
+st.write("Welcome to the Dink4Health Club!")
 
 st.divider()
 
