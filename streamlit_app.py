@@ -33,6 +33,13 @@ a[href*="github.com/streamlit"]{display:none!important;}
 </style>
 """, unsafe_allow_html=True)
 
+# =========================
+# HEADER PHOTO
+# =========================
+col1, col2, col3 = st.columns([1,2,1])
+with col2:
+    st.image("DFORHphoto.jpg", width=300)
+
 st.title("🎾 Pickleball Auto Stack Dink4Health Official")
 st.caption("Where Wellness Meets Play")
 
