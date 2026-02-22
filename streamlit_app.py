@@ -34,7 +34,7 @@ a[href*="github.com/streamlit"]{display:none!important;}
 """, unsafe_allow_html=True)
 
 st.title("🎾 Pickleball Auto Stack Dink4Health Official")
-st.caption("First come • first play • fair rotation")
+st.caption("Where Wellness Meets Play")
 
 # ======================================================
 # HELPERS
