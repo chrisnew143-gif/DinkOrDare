@@ -55,11 +55,3 @@ if st.button("🎾 Open Play Stacking", use_container_width=True):
     st.switch_page("pages/AutoStack.py")
 
 st.divider()
-
-if st.button("🏆 DUPR Match", use_container_width=True):
-    st.switch_page("pages/DUPRMatch.py")
-
-st.divider()
-
-if st.button("🏆Player Profile", use_container_width=True):
-    st.switch_page("pages/PlayerProfile.py")
