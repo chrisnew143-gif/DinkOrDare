@@ -41,7 +41,7 @@ def set_bg(image_file):
         unsafe_allow_html=True
     )
 
-set_bg("DFORHphoto1.jpg")
+set_bg("DFORHPHOTO1.jpg")
 
 # =========================
 # CONTENT
