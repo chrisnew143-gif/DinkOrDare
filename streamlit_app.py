@@ -20,11 +20,21 @@ def set_bg(image_file):
             background-attachment: fixed;
         }}
 
-        /* Optional: Make content readable */
+        /* FULL PAGE CENTERING */
+        .main > div {{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }}
+
         .block-container {{
             background: rgba(255, 255, 255, 0.85);
-            padding: 2rem;
-            border-radius: 15px;
+            padding: 3rem;
+            border-radius: 20px;
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
         }}
         </style>
         """,
@@ -50,3 +60,6 @@ if st.button("🏆 DUPR Match", use_container_width=True):
     st.switch_page("pages/DUPRMatch.py")
 
 st.divider()
+
+if st.button("🏆Player Profile", use_container_width=True):
+    st.switch_page("pages/PlayerProfile.py")
