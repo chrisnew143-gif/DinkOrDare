@@ -1,4 +1,4 @@
 import streamlit as st
 
-st.title("👤 Club Leaderboard")
+st.title("👤 Dink4Health Leaderboard")
 st.caption("🚧 Under Construction")
