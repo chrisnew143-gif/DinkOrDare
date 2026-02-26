@@ -12,7 +12,7 @@ from datetime import datetime
 # ======================================================
 # PAGE CONFIG
 # ======================================================
-st.set_page_config(page_title="Pickleball Auto Stack Dink4Health Official", page_icon="🎾", layout="wide")
+st.set_page_config(page_title="Pickleball Auto Stack Dink or Dare Official", page_icon="🎾", layout="wide")
 
 st.markdown("""
 <style>
@@ -33,8 +33,8 @@ a[href*="github.com/streamlit"]{display:none!important;}
 </style>
 """, unsafe_allow_html=True)
 
-st.title("🎾 Pickleball Auto Stack Dink4Health Official")
-st.caption("Where Wellness Meets Play")
+st.title("🎾 Pickleball Auto Stack Dink or Dare Official")
+st.caption("ANGEL")
 
 # ======================================================
 # HELPERS
