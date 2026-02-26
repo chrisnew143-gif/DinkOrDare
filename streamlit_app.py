@@ -41,13 +41,13 @@ def set_bg(image_file):
         unsafe_allow_html=True
     )
 
-set_bg("DFORHPHOTO1.jpg")
+set_bg("dORd.jpg")
 
 # =========================
 # CONTENT
 # =========================
-st.title("🏠 Dink4Health Official Club")
-st.write("Welcome to the Dink4Health Club!")
+st.title("🏠 Dink or Dare Official Club")
+st.write("Welcome to the Dink or Dare Club!")
 
 st.divider()
 
