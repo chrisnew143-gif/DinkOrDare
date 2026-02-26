@@ -15,12 +15,14 @@ def set_bg(image_file):
         <style>
         .stApp {{
             background-image: url("data:image/jpg;base64,{encoded}");
-            background-size: cover;
+            background-size: contain;   /* show full image */
             background-position: center;
+            background-repeat: no-repeat;
             background-attachment: fixed;
+            background-color: black;   /* optional: fills empty space nicely */
         }}
 
-        /* FULL PAGE CENTERING */
+        /* CENTER CONTENT VERTICALLY */
         .main > div {{
             display: flex;
             justify-content: center;
