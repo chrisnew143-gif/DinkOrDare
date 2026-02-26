@@ -30,7 +30,7 @@ a[href*="github.com/streamlit"]{display:none!important;}
 </style>
 """, unsafe_allow_html=True)
 
-st.title("🎾 Pickleball Auto Stack")
+st.title("🎾 Pickleball Auto Stack Dink Or Dare")
 st.caption("First come • first play • fair rotation")
 
 # ======================================================
